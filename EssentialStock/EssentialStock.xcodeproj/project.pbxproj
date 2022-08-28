@@ -11,6 +11,7 @@
 		D7E891C028BAED6000B8F997 /* StockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891BF28BAED6000B8F997 /* StockItem.swift */; };
 		D7E891C228BB25BF00B8F997 /* StockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891C128BB25BF00B8F997 /* StockLoader.swift */; };
 		D7E891C728BB3C3F00B8F997 /* RemoteStockLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891C628BB3C3F00B8F997 /* RemoteStockLoaderTest.swift */; };
+		D7E891CA28BB3FAA00B8F997 /* RemoteStockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891C928BB3FA900B8F997 /* RemoteStockLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		D7E891BF28BAED6000B8F997 /* StockItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockItem.swift; sourceTree = "<group>"; };
 		D7E891C128BB25BF00B8F997 /* StockLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockLoader.swift; sourceTree = "<group>"; };
 		D7E891C628BB3C3F00B8F997 /* RemoteStockLoaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStockLoaderTest.swift; sourceTree = "<group>"; };
+		D7E891C928BB3FA900B8F997 /* RemoteStockLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStockLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		D7E891A928BAEB7400B8F997 /* EssentialStock */ = {
 			isa = PBXGroup;
 			children = (
+				D7E891C828BB3F9600B8F997 /* Stock API */,
 				D7E891C528BB3B2200B8F997 /* StockFeature */,
 			);
 			path = EssentialStock;
@@ -91,6 +94,14 @@
 				D7E891C128BB25BF00B8F997 /* StockLoader.swift */,
 			);
 			path = StockFeature;
+			sourceTree = "<group>";
+		};
+		D7E891C828BB3F9600B8F997 /* Stock API */ = {
+			isa = PBXGroup;
+			children = (
+				D7E891C928BB3FA900B8F997 /* RemoteStockLoader.swift */,
+			);
+			path = "Stock API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E891C028BAED6000B8F997 /* StockItem.swift in Sources */,
+				D7E891CA28BB3FAA00B8F997 /* RemoteStockLoader.swift in Sources */,
 				D7E891C228BB25BF00B8F997 /* StockLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
