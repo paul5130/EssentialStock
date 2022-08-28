@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		D7E891B028BAEB7400B8F997 /* EssentialStock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E891A728BAEB7400B8F997 /* EssentialStock.framework */; };
 		D7E891B528BAEB7400B8F997 /* EssentialStockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891B428BAEB7400B8F997 /* EssentialStockTests.swift */; };
-		D7E891B628BAEB7400B8F997 /* EssentialStock.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E891AA28BAEB7400B8F997 /* EssentialStock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7E891C028BAED6000B8F997 /* StockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891BF28BAED6000B8F997 /* StockItem.swift */; };
+		D7E891C228BB25BF00B8F997 /* StockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E891C128BB25BF00B8F997 /* StockLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		D7E891A728BAEB7400B8F997 /* EssentialStock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialStock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7E891AA28BAEB7400B8F997 /* EssentialStock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialStock.h; sourceTree = "<group>"; };
 		D7E891AF28BAEB7400B8F997 /* EssentialStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E891B428BAEB7400B8F997 /* EssentialStockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialStockTests.swift; sourceTree = "<group>"; };
 		D7E891BF28BAED6000B8F997 /* StockItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockItem.swift; sourceTree = "<group>"; };
+		D7E891C128BB25BF00B8F997 /* StockLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,7 @@
 		D7E891A928BAEB7400B8F997 /* EssentialStock */ = {
 			isa = PBXGroup;
 			children = (
-				D7E891AA28BAEB7400B8F997 /* EssentialStock.h */,
-				D7E891BF28BAED6000B8F997 /* StockItem.swift */,
+				D7E891C528BB3B2200B8F997 /* StockFeature */,
 			);
 			path = EssentialStock;
 			sourceTree = "<group>";
@@ -85,6 +84,15 @@
 			path = EssentialStockTests;
 			sourceTree = "<group>";
 		};
+		D7E891C528BB3B2200B8F997 /* StockFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D7E891BF28BAED6000B8F997 /* StockItem.swift */,
+				D7E891C128BB25BF00B8F997 /* StockLoader.swift */,
+			);
+			path = StockFeature;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,7 +100,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E891B628BAEB7400B8F997 /* EssentialStock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E891C028BAED6000B8F997 /* StockItem.swift in Sources */,
+				D7E891C228BB25BF00B8F997 /* StockLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
